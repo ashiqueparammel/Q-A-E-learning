@@ -64,7 +64,7 @@ function Signup() {
         })
       });
 
-      if (response.status === 200 && response.registerd) {
+      if (response.status === 200 ) {
         toast.success('Sign Up successfully!')
 
         history('/login');
